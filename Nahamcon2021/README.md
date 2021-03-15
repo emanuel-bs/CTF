@@ -11,6 +11,6 @@
 12/03 to 14/03
 
 ![Timeline](img/ScoreoverTime.png)
-![Performance](img/SolvePercentages.pngg)
+![Performance](img/SolvePercentages.png)
 ![Categories](img/CategoryBreakdown.png)
 ![breadcrumb](img/print-fullpage.png)
