@@ -1,15 +1,16 @@
 # CTF nahamcon 2021
 
-https://ctf.nahamcon.com
+<https://ctf.nahamcon.com>
 
 [The Mission](TheMission.md)
 
-[Chalenges](Chalenges.md)
+[Challenges](Challenges.md)
 
 [Fails](unfinished.md)
 
-12 à 14 de março.
+12/03 to 14/03
+
 ![Timeline](img/ScoreoverTime.png)
-![Desempenho](img/SolvePercentages.pngg)
-![Categorias](img/CategoryBreakdown.png)
+![Performance](img/SolvePercentages.pngg)
+![Categories](img/CategoryBreakdown.png)
 ![breadcrumb](img/print-fullpage.png)
