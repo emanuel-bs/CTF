@@ -1,4 +1,4 @@
-# CTF nahamcon 2021
+# CTF NahamCon 2021
 
 <https://ctf.nahamcon.com>
 
