@@ -1,8 +1,19 @@
 # Constellations
 
-New challenges unlocked by submitting flag.
+Challenges unlocked by submitting flag.
+
+Overview
 
 ![Overview](img/OSINT_mermaid.png)
+
+- [Constellations](#constellations)
+  - [The Mission](#the-mission)
+    - [Bionic](#bionic)
+    - [Gus](#gus)
+    - [Hercules](#hercules)
+    - [Meet The Team](#meet-the-team)
+    - [Lyra](#lyra)
+    - [Hydraulic](#hydraulic)
 
 ## [The Mission](https://ctf.nahamcon.com/mission)
 
@@ -15,7 +26,7 @@ Flag on html source
 
 ### Bionic
 
-* <https://constellations.page/>
+<https://constellations.page/>
 
 Source index has the following link to twitter witch have posted a flag
 
@@ -42,7 +53,7 @@ Is followed by HerculesScox
 
 Has hard corded credentials
 
-* robots.txt
+robots.txt
 
 ```txt
 Disallow: /meet-the-team.html
