@@ -2,23 +2,11 @@
 
 New challenges unlocked by submitting flag.
 
-:::mermaid
-stateDiagram-v2
-mtt: "Meet The Team"
-flag_unk: "twitter.com/C0NST3LLAT10NS"
-[*] --> Bionic
-Bionic --> flag_unk : not submitted
-Bionic --> mtt
-Bionic --> Gus
-Hercules --> Gus: Follow
-Bionic --> Hercules
-Bionic --> Lyra
-Lyra --> Hydraulic
-:::
+![Overview](img/OSINT_mermaid.png)
 
 ## [The Mission](https://ctf.nahamcon.com/mission)
 
-Flag on the html source
+Flag on html source
 >Ctrl+u
 >
 >Ctrl+f "flag{"
@@ -76,16 +64,17 @@ Finding: .git/HEAD
  email = leo.rison@constellations.page
 ```
 
+How to leverage the exposed git?
+
 [Google-fu](https://medium.com/swlh/hacking-git-directories-e0e60fa79a36)
 
 [Google-fu](https://github.com/internetwache/GitTools)
 
 ### Meet The Team
 
-Restored meet-the-team.html has:
-`` flag{4063962f3a52f923ddb4411c139dd24c} ``
+Restored meet-the-team.html has the flag and lists PII.
 
-and lists PII
+`` flag{4063962f3a52f923ddb4411c139dd24c} ``
 
 ### Lyra
 
@@ -94,10 +83,12 @@ and lists PII
 > IDOR
 >
 ><https://constellations.page/constellations-documents/1/>
-<https://constellations.page/constellations-documents/2/>
+>
+><https://constellations.page/constellations-documents/2/>
 
 <https://constellations.page/constellations-documents/5/>
-List flag, users and passwords
+
+Has the flag and list of users, passwords.
 
 `` flag{bd869e6193c27308d2fd3ad4b427e8c3} ``
 
